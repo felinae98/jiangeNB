@@ -1,0 +1,11 @@
+{
+  "name": "msg_sender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/contract": "^4.1.4",
+    "nodemailer": "^6.4.2",
+    "web3": "^1.2.4"
+  }
+}
