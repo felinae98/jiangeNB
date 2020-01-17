@@ -53,7 +53,7 @@ Jiange.setProvider(provider)
 
 Jiange.deployed().then(jiange => {
   console.log('start listen')
-  jiange.worship().on('data', function(event){
+  jiange.sendMsg().on('data', function(event){
     let msg = {
       from: 'felinae225@qq.com',
       to: config.jiangeEmail,
