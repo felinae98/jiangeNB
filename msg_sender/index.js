@@ -55,7 +55,7 @@ Jiange.deployed().then(jiange => {
   console.log('start listen')
   jiange.sendMsg().on('data', function(event){
     let msg = {
-      from: 'felinae225@qq.com',
+      from: config.senderEmail,
       to: config.jiangeEmail,
       subject: 'jiangeNB系统自动发送',
       text: selectRandomMsg()
