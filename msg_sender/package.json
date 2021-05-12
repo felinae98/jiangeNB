@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@truffle/contract": "^4.1.4",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "web3": "^1.2.4"
   }
 }
